@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "header":[{
+      "source" : "/service - worked.js",
+      "header" : [{"key" : "Cache-control", "value": "no-cache"}]
+    }]
+  }
+}
